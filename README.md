@@ -3,13 +3,13 @@
 A local discovery app for Austin — search nearby events, spots, and deals,
 ranked by distance, rating, and your personal taste.
 
-## Stack (all free, no paid services or API keys required)
+## Stack 
 
 - **Backend:** Java 17, Spring Boot 3, Spring Data JPA
 - **Database:** H2 (in-memory, zero setup)
-- **Caching:** Spring's in-memory `ConcurrentMapCache` (swap for Redis later if needed)
-- **Geo search:** Haversine formula computed in-process (no PostGIS/Google Maps billing)
-- **Android client:** Kotlin + Jetpack Compose + Retrofit/Moshi/OkHttp (all free/open source)
+- **Caching:** Spring's in-memory `ConcurrentMapCache`
+- **Geo search:** Haversine formula computed in-process 
+- **Android client:** Kotlin + Jetpack Compose + Retrofit/Moshi/OkHttp 
 
 ## Running the backend
 
